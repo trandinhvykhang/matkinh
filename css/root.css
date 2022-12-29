@@ -1,0 +1,23 @@
+:root {
+    --color-1: #ffa9b9;
+    --color-2: #ffbac7;
+    --color-3: #ffcbd5;
+    --color-4: #ffdde3;
+    --color-5: #ffeef1;
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url("../assets/fonts/dosis.ttf");
+}
+
+html, body
+{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-5);
+    font-family: Dosis;
+}

@@ -1,0 +1,131 @@
+.btn {
+    border: 0;
+    background-color: var(--color-3);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: var(--color-2);
+}
+
+.nav-bar {
+    background-color: var(--color-4);
+    position: sticky;
+    width: calc(100% - 500px);
+    height: 50px;
+    display: flex;
+    padding: 0 250px 0 250px;
+}
+
+.nav-img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.glasses {
+    height: 65%;
+}
+
+.nav-title {
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.nav-space {
+    flex: 1;
+}
+
+.nav-signout {
+    cursor: pointer;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signout-icon {
+    height: 65%;
+}
+
+.center {
+    margin: 50px 250px 0 0;
+    width: calc(100% - 250px);
+    height: calc(100% - 50px - 100px);
+    display: flex;
+}
+
+.sidenav {
+    width: 200px;
+}
+
+.sidenav-box {
+    background-color: var(--color-4);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: 250ms ease-in-out;
+}
+
+.list-icon {
+    height: 65%;
+}
+
+.sidenav-content {
+    background-color: var(--color-4);
+    width: 200px;
+    border-radius: 5px;
+    transition: 250ms ease-in-out;
+    transform-origin: left;
+    transform: scaleX(0%);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav-box:hover {
+    width: 200px;
+}
+
+.sidenav-box:hover ~ .sidenav-content {
+    transform: scaleX(100%);
+}
+
+.sidenav-content:hover {
+    transform: scaleX(100%);
+}
+
+.sidenav-title {
+    font-family: Dosis;
+    cursor: pointer;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: 0;
+    border-radius: 5px;
+}
+
+.sidenav-title:hover {
+    background-color: var(--color-3);
+}
+
+.sidenav-active {
+    background-color: var(--color-3);
+}
+
+.main {
+    background-color: var(--color-4);
+    margin-left: 50px;
+    padding: 10px;
+    width: calc(100% - 250px - 50px);
+    height: calc(100% - 20px);
+    border-radius: 5px;
+    flex: 1;
+}
